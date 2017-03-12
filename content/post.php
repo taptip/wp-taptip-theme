@@ -16,6 +16,7 @@ if($post_index>0) {
 		<?php
 		$post_thumbnail_id = get_post_thumbnail_id($post->ID);
 		$post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
+		$post_excerpt = apply_filters( 'the_excerpt', get_the_excerpt() );
 		if ($post_thumbnail_url) {
 		?>
 		<img src="<?php echo $post_thumbnail_url; ?>" class="img-responsive" alt="">
@@ -26,6 +27,6 @@ if($post_index>0) {
 		<hr>
 		<p class="blog-post-meta"><?php the_date(); ?> by <a href="#"><?php the_author(); ?></a></p>
 		<hr>
-		<p><?php echo ($post_index>0) ? substr($post->post_excerpt,0,123) : $post->post_excerpt;?>...<a class="hidden-xs hidden-sm" href="<?php echo get_the_permalink(); ?>">More</a></p><a class="btn btn-lg btn-block hidden-md hidden-lg" href="<?php echo get_the_permalink(); ?>">More</a>
+		<p><?php echo ($post_index>0) ? substr($post_excerpt,0,123) : $post_excerpt;?>...<a class="hidden-xs hidden-sm" href="<?php echo get_the_permalink(); ?>">More</a></p><a class="btn btn-lg btn-block hidden-md hidden-lg" href="<?php echo get_the_permalink(); ?>">More</a>
 	</div>
 </div>
