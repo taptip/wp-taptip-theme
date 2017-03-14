@@ -56,3 +56,8 @@ function register_session(){
 add_action('init','register_session');
 
 add_theme_support( 'post-thumbnails' );
+
+function taptip_excerpt_more( $more ) {
+    return '';
+}
+add_filter( 'excerpt_more', 'taptip_excerpt_more' );
