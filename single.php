@@ -8,11 +8,14 @@
 				<?php
 				if (have_posts()) {
 					while (have_posts()) {
-					the_post();
-					$post_thumbnail_id = get_post_thumbnail_id($post->ID);
-					$post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
-				?>
-
+						the_post();
+						$post_image_url = wp_get_attachment_url($post->ID);
+						if ($post_thumbnail_url) {
+					?>
+					<img src="<?php echo $post_thumbnail_url; ?>" class="img-responsive" alt="">
+					<?php
+						}
+					?>
 					<h2 class="blog-post-title"><?php the_title(); ?></h2>
 					<p class="blog-post-meta"><?php the_date(); ?> by <a href="#"><?php the_author(); ?></a></p>
 					<hr>

@@ -27,6 +27,6 @@ if($post_index>0) {
 		<hr>
 		<p class="blog-post-meta"><?php the_date(); ?> by <a href="#"><?php the_author(); ?></a></p>
 		<hr>
-		<p><?php echo ($post_index>0) ? substr($post_excerpt,0,123) : $post_excerpt;?>...<a class="hidden-xs hidden-sm" href="<?php echo get_the_permalink(); ?>">More</a></p><a class="btn btn-lg btn-block hidden-md hidden-lg" href="<?php echo get_the_permalink(); ?>">More</a>
+		<p><?php echo ($post_index>0) ? substr($post_excerpt,0,123) : substr($post_excerpt,0,-1);?>...<a class="hidden-xs hidden-sm" href="<?php echo get_the_permalink(); ?>">More</a></p><a class="btn btn-lg btn-block hidden-md hidden-lg" href="<?php echo get_the_permalink(); ?>">More</a>
 	</div>
 </div>
