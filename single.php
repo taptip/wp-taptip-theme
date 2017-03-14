@@ -4,15 +4,15 @@
 		<section class="single-content container page-wrap">
         	<div class="row">
         		<div class="col-sm-offset-2 col-sm-8 col-xs-12">
-        		<a href="<?php echo  esc_url( home_url( '/blog' ) );?>" class="btn btn-block float-right"><span class="glyphicon glyphicon-menu-left"></span>Back</a>
+        		<a href="<?php echo  esc_url( home_url( '/blog' ) );?>" class="btn btn-block-thin pull-right"><span class="glyphicon glyphicon-menu-left"></span>Back</a>
 				<?php
 				if (have_posts()) {
 					while (have_posts()) {
 						the_post();
 						$post_image_url = wp_get_attachment_url($post->ID);
-						if ($post_thumbnail_url) {
+						if ($post_image_url) {
 					?>
-					<img src="<?php echo $post_thumbnail_url; ?>" class="img-responsive" alt="">
+					<img src="<?php echo $post_image_url; ?>" class="img-responsive" alt="">
 					<?php
 						}
 					?>
