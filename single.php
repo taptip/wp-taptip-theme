@@ -9,7 +9,8 @@
 				if (have_posts()) {
 					while (have_posts()) {
 						the_post();
-						$post_image_url = wp_get_attachment_url($post->ID);
+						$post_thumbnail_id = get_post_thumbnail_id($post->ID);
+						$post_image_url = wp_get_attachment_url( $post_thumbnail_id );
 						if ($post_image_url) {
 					?>
 					<img src="<?php echo $post_image_url; ?>" class="img-responsive" alt="">
