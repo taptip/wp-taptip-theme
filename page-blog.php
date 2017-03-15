@@ -54,6 +54,7 @@ Template Name: blog
 			<div class="col-md-3">
 				<div class="row">
 					<!-- sidebar start -->
+					<?php get_template_part( 'content/blog-sidebar');?>
 					<!-- sidebar end -->
 				</div>
 			</div>
