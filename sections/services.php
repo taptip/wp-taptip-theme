@@ -3,7 +3,6 @@
 <section id="services">
     <div class="container">
         <h2>Services</h2>
-        <hr class="light-sep">
         <div class="services-box">
             <div class="row wow fadeInUp" data-wow-delay=".3s">
                 <div class="col-md-4">
@@ -31,7 +30,9 @@
                     <div class="media-left"><span class="icon-chat"></span></div>
                     <div class="media-body">
                         <h3>Teaching</h3>
-                        <p>I tutor accounting and management subjects to students online.</p>
+                        <p>
+                            I tutor accounting and management subjects to students online.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,6 @@
 <section id="what-i-do">
     <div class="container">
         <h2>What I Do</h2>
-        <hr class="sep">
         <div class="row wow fadeInUp" data-wow-delay=".3s">
             <div class="col-md-3 col-md-offset-3 col-xs-6">
                 <div class="centered">
