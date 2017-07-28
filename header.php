@@ -19,7 +19,7 @@
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="ANTHIA Accounting" />
     <meta property="og:description"   content="Certified Public Accountant and Certified Intuit Quickbooks ProAdvisor for Not for Profit and for Small Business" />
-    <meta property="og:image"         content="http://anthia.aberia.us/wp-content/uploads/2017/03/sitepreview.png" />
+    <meta property="og:image"         content="http://s3-ap-southeast-1.amazonaws.com/anthiaa-wp/wp-content/uploads/2017/03/28171656/sitepreview.png" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo/aalogo1-white.png" height="66px" width="66px" class="img-responsive" alt="logo" ></a>
+                    <a class="navbar-brand" href="#"><img src="http://s3-ap-southeast-1.amazonaws.com/anthiaa-wp/wp-content/uploads/2017/07/28172806/aalogo1-white.png" height="66px" width="66px" class="img-responsive" alt="logo" ></a>
                 </div>
                 <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
                     <div class="col-md-8 col-xs-12 nav-wrap">
@@ -100,7 +100,7 @@
         <div id="owl-hero" class="owl-carousel owl-theme">
             <div class="item" 
                 style="
-                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('<?php bloginfo('template_directory'); ?>/img/sliders/accounting.jpg');
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://s3-ap-southeast-1.amazonaws.com/anthiaa-wp/wp-content/uploads/2017/07/28173038/accounting.jpg');
                 /*background-image: url(img/sliders/accounting.jpg);
                 opacity: 0.8;*/
                 "

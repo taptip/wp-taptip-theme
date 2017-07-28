@@ -7,12 +7,12 @@
         <div class="row wow fadeInUp" data-wow-delay=".3s">
             <div class="col-md-3 col-md-offset-3 col-xs-6">
                 <div class="centered">
-                    <img class="img-responsive center-block" src="http://anthia.aberia.us/wp-content/uploads/2014/12/anthia-300x300.jpeg" >
+                    <img class="img-responsive center-block" src="http://s3-ap-southeast-1.amazonaws.com/anthiaa-wp/wp-content/uploads/2014/12/28171652/anthia.jpeg" >
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
                 <div class="centered">
-                    <img class="img-responsive center-block" src="http://anthia.aberia.us/wp-content/uploads/2017/01/1_Badge_Online_large-226x300.jpg" >
+                    <img class="img-responsive center-block" src="http://s3-ap-southeast-1.amazonaws.com/anthiaa-wp/wp-content/uploads/2017/01/28171634/1_Badge_Online_large.jpg" >
                 </div>
             </div>
         </div>
