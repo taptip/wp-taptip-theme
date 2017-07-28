@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-3 col-xs-6">
                 <div class="centered">
-                    <a class="btn-block-thin" href="http://proadvisor.intuit.com/quickbooks-help/anthia-aberia" target="_blank">Quickbooks Profile</a>
+                    <a class="btn-block-thin" href="https://proadvisor.intuit.com/quickbooks-help/anthia-aberia" target="_blank">Quickbooks Profile</a>
                 </div>
             </div>
         </div>

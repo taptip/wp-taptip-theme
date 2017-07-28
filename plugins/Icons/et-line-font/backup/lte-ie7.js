@@ -6,6 +6,7 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'et-line\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+			'icon-quickbooks' : '&#xe900;',
 			'icon-mobile' : '&#xe000;',
 			'icon-laptop' : '&#xe001;',
 			'icon-desktop' : '&#xe002;',
